@@ -80,3 +80,20 @@ body {
     width: 50%;
     margin-bottom: 20px;
 }
+
+.img-txt-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+    font-weight: 600;
+}
+
+
+.img-txt-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}

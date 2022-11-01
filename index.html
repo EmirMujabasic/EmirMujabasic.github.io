@@ -34,7 +34,7 @@
 
                     <div class="img-txt-wrapper">
                         <div class="logo-wrapper">
-                            <img src="">
+                            <img src="images/emir-logo.png">
                         </div>
 
                         <div class="subtitle">
@@ -200,4 +200,20 @@
         </div>
     </div>
 </body>
+
+<script>
+    let portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+    })
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
 </html>
