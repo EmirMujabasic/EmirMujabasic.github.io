@@ -1,6 +1,7 @@
 /* Master Styles */
 body {
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -96,4 +97,23 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
+}
+
+/* About page styles*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
 }
