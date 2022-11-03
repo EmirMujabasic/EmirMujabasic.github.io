@@ -96,8 +96,20 @@ body {
     font-weight: 600;
 }
 
+.img-txt-wrapper .subtitle a {
+    transition: 1s;
+    color: transparent;
+    font-weight: 600;
+}
+
+
 
 .img-txt-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-txt-wrapper:hover .subtitle a{
     font-weight: 600;
     color: lightseagreen;
 }
